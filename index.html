@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main" class="min-h-screen w-screen flex ">
+        <div id="left" class=" min-h-screen w-full  bg-blue-300 md:w-6/12 flex justify-center items-center">
+            <div id="logo">
+                <img src="logo.svg" alt="" class="absolute h-16 w-16 top-2 left-8">
+            </div>
+            <section class="font-medium bg-blue-300 h-full w-full pb-6 px-24 pt-14 lg:px-40 lg:pt-20 lg:pb-10 tracking-wider">
+                <h1 class="text-center font-medium text-3xl mb-7 text-black font-sans">Login your account</h1>
+            <div class="mb-3">
+            <label>Email</label>
+            <br>
+            <input type="email" placeholder="username@gmail.com" required class="py-2 px-3 rounded w-full my-2">
+            </div>
+
+            <div>
+                <label>Password</label>
+                <br>
+                <input type="password" placeholder="......" required class="py-2  px-3 rounded w-full my-2">
+            </div>
+        <div class="text-end">
+        <a href="" class="text-blue-600 hover:text-blue-900">Forgot Password?</a>
+    </div>
+        <br>
+        <input type="checkbox" class="h-7 p-5 w-5">
+        <a href="" class="relative bottom-1 my-2">Remember Me</a>
+        <br>
+        <button class="w-full bg-blue-600 py-2 px-12 rounded my-3 text-white hover:bg-blue-900" >Sign in</button>
+        <h3 class="text-center my-5">or continue with</h3>
+          <section id="buttons" class="flex justify-center gap-4">
+          <button class="h-10 px-0 bg-white rounded w-24"><img src="google.png" alt="" class="h-6 mx-auto"></button>
+          <button class="h-10 px-0 bg-white rounded w-24"><img src="facebook.png" alt="" class="h-6 m-auto"></button>
+          </section>
+          <br>
+          <h3 class="text-center mt-3 font-normal">Don't have an account yet?</h3>
+          <br>
+          <div class="text-center">
+          <a href="" class="text-blue-600 hover:text-blue-900 font-normal">Register Now</a>
+        </div>
+        </section>
+        </div>
+        <div id="right" class=" none lg:block md:h-screen md:w-6/12 md:bg-[length:400px] md:bg-no-repeat md:bg-center lg:bg-cover md:bg-[url('https://img.freepik.com/free-vector/online-certification-illustration_23-2148575636.jpg?w=740&t=st=1696155041~exp=1696155641~hmac=ee5da2000e0b04007e66309b9814ab34e24f629f7eb2d9cff353ba04c9c3f3ff')] md:opacity-70" ></div>
+    </div>
+</body>
+</html>
